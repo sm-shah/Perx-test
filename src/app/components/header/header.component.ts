@@ -13,6 +13,14 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  canDisplayHeader(){
+    return !this.router.url?.includes('home');
+  }
+
+  navigateTo(route:string){
+    this.router.navigate([route]);
+  }
+
   navigateToPage(route:string){
     this.router.navigate([route])
   }

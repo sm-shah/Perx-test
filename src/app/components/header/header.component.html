@@ -1,5 +1,5 @@
-<mat-toolbar class="header-container" color="primary">
-    <span>
+<mat-toolbar *ngIf="canDisplayHeader()" class="header-container" color="primary">
+    <span class="cursor-pointer" (click)="navigateTo('/home')">
       Perx Test
     </span>
     <span class="fill-remaining-space"></span>
