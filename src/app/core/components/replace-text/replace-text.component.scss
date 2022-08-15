@@ -1,0 +1,27 @@
+
+.container { 
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    border: black 2px solid;
+    padding: 25px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 30%;
+    word-wrap:break-word;
+  }
+  
+  .static-text{
+    margin-top: 25px;
+    width: 100%;
+
+  }

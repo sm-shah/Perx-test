@@ -1,0 +1,23 @@
+/* Structure */
+table {
+    width: 98%;
+    overflow-y: scroll;
+    margin:auto;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    // width: 100%;
+  }
+
+.filter-container{
+  margin-top: 5%;
+  width: 23%;
+  margin-left: 1%;
+  display: block;
+}
+
+.container{
+  overflow-y: auto;
+  display: block;
+}

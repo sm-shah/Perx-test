@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="vertical-center">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Start typing to see magic!!</mat-label>
+            <input [(ngModel)]="userInput" matInput>
+          </mat-form-field>
+        <div class="static-text">
+         {{userInput || 'Hey, replace me with something of your own.' }}   
+        </div>
+    </div>
+  </div>
+  
